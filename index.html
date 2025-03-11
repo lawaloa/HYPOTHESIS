@@ -232,7 +232,7 @@ window.Quarto = {
 <h4 class="unnumbered anchored" data-anchor-id="generating-a-bootstrap-distribution">Generating a bootstrap distribution</h4>
 <p>To answer this, we need to generate a bootstrap distribution of sample means. This is done by resampling the dataset, calculating the sample mean for that resample, then repeating those steps to create a list of sample means.</p>
 <ol type="1">
-<li>1 [Bootstrap distributions are taught in Chapter 4 of Sampling in Python(https://lawaloa.github.io/Sampling/#chapter-4-bootstrap-distributions){target=“_blank”}</li>
+<li>1 <a href="https://lawaloa.github.io/Sampling/#chapter-4-bootstrap-distributions" target="_blank">Bootstrap distributions are taught in Chapter 4 of Sampling in Python</a></li>
 </ol>
 </section>
 <section id="visualizing-the-bootstrap-distribution" class="level4 unnumbered">
@@ -277,7 +277,7 @@ z = \frac{\text{sample statistic} - \text{hypothesized parameter value}}{\text{s
 <li>Print the <code>late_shipments</code> dataset.</li>
 <li>Calculate the proportion of late shipments in the sample; that is, the mean cases where the <code>late</code> column is <code>"Yes"</code>.</li>
 </ol>
-<div id="8686c218" class="cell" data-execution_count="1">
+<div id="7a526553" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import pandas</span></span>
@@ -383,7 +383,7 @@ z = \frac{\text{sample statistic} - \text{hypothesized parameter value}}{\text{s
 <li>Calculate the standard error from the standard deviation of the bootstrap distribution.</li>
 <li>Calculate the z-score.</li>
 </ul>
-<div id="f6687797" class="cell" data-execution_count="2">
+<div id="e6a194f2" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -553,7 +553,7 @@ z = \frac{\text{sample statistic} - \text{hypothesized parameter value}}{\text{s
 <li>Calculate the z-score of <code>late_prop_samp</code>.</li>
 <li>Calculate the p-value for the z-score, using a right-tailed test.</li>
 </ul>
-<div id="39e73483" class="cell" data-execution_count="3">
+<div id="e03a2e04" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -649,7 +649,7 @@ z = \frac{\text{sample statistic} - \text{hypothesized parameter value}}{\text{s
 <li>Does the confidence interval match up with the conclusion to stick with the original assumption that 6% is a reasonable value for the unknown population parameter?</li>
 </ul>
 <p>Yes, since 0.06 is included in the 95% confidence interval and we failed to reject <span class="math inline">\(H_O\)</span> due to a large p-value, the results are similar.</p>
-<div id="50aa9e42" class="cell" data-execution_count="4">
+<div id="9fc79da2" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -749,7 +749,7 @@ t = \frac{\bar{x}_{child} - \bar{x}_{adult}}{\sqrt{\frac{s_{child}^2}{n_{child}}
 <li>Calculate the denominator of the <span class="math inline">\(t\)</span> test statistic.</li>
 <li>Use those two numbers to calculate the <span class="math inline">\(t\)</span> test statistic.</li>
 </ul>
-<div id="0094c199" class="cell" data-execution_count="5">
+<div id="38f4a03a" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -861,7 +861,7 @@ Note
 <li>Compute the p-value using the test statistic, <code>t_stat</code>.</li>
 <li>What decision should you make based on the results of the hypothesis test? **<em>Reject the null hypothesis.</em></li>
 </ul>
-<div id="28df740f" class="cell" data-execution_count="6">
+<div id="c45e17b9" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -973,7 +973,7 @@ Note
 <li>Calculate the standard deviation of the <code>diff</code> column as <code>s_diff</code>.</li>
 <li>Plot a histogram of the <code>diff</code> column with 20 bins.</li>
 </ol>
-<div id="812011b2" class="cell" data-execution_count="7">
+<div id="3eee1b50" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1047,7 +1047,7 @@ Note
 <ol type="1">
 <li>Conduct a t-test on the sample differences (the diff column of <code>sample_dem_data</code>), using an appropriate alternative hypothesis chosen from <code>"two-sided"</code>, <code>"less"</code>, and <code>"greater"</code>.</li>
 </ol>
-<div id="ff3f025b" class="cell" data-execution_count="8">
+<div id="5062c7f6" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1083,7 +1083,7 @@ T-test  2.246e+111    1.0  </code></pre>
 <ol start="3" type="1">
 <li>Conduct a paired test on the democratic votes in 2012 and 2016 (the <code>dem_percent_12</code> and <code>dem_percent_16</code> columns of <code>sample_dem_data</code>), using an appropriate alternative hypothesis.</li>
 </ol>
-<div id="aafe4603" class="cell" data-execution_count="9">
+<div id="b6099a9c" class="cell" data-execution_count="9">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1119,7 +1119,7 @@ T-test  2.246e+111    1.0  </code></pre>
                alternative="two-sided")</code></pre>
 <p><strong>Answer</strong></p>
 <p><em>The p-value from the unpaired test is greater than than the p-value from the paired test. When you have paired data, a paired t-test is preferable to the unpaired version because it reduces the chance of a false negative error.</em></p>
-<div id="d9758dda" class="cell" data-execution_count="10">
+<div id="ce7b6fee" class="cell" data-execution_count="10">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1192,7 +1192,7 @@ T-test  4.308e+09    1.0  </code></pre>
 <li>Group <code>late_shipments</code> by <code>shipment_mode</code> and calculate the standard deviation <code>pack_price</code> for each group, storing the result in <code>s_pack_by_mode</code>.</li>
 <li>Create a boxplot from <code>late_shipments</code> with <code>"pack_price"</code> as <code>x</code> and <code>"shipment_mode"</code> as <code>y</code>.</li>
 </ol>
-<div id="d46e06ef" class="cell" data-execution_count="11">
+<div id="4d1d7388" class="cell" data-execution_count="11">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1256,7 +1256,7 @@ Name: pack_price, dtype: float64</code></pre>
 <ol type="1">
 <li>Run an ANOVA on <code>late_shipments</code> investigating <code>'pack_price'</code> (the dependent variable) between the groups of <code>'shipment_mode'</code></li>
 </ol>
-<div id="523b3e25" class="cell" data-execution_count="12">
+<div id="6ae980e6" class="cell" data-execution_count="12">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1297,7 +1297,7 @@ Name: pack_price, dtype: float64</code></pre>
 <li>Using the Bonferroni correction results and assuming a significance level of 0.1, for which pairs of shipment modes should you reject the null hypothesis that the pack prices are equal?</li>
 </ol>
 <p><em>“Ocean” and “Air Charter”; “Ocean” and “Air”; “Air Charter” and “Air”. After applying the Bonferroni adjustment, the p-values for the t-tests between each of the three groups are all less than 0.1.</em></p>
-<div id="2c6946b7" class="cell" data-execution_count="13">
+<div id="c0acaf74" class="cell" data-execution_count="13">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1418,7 +1418,7 @@ z = \frac{p - p_0}{\sqrt{\frac{p_0 (1 - p_0)}{n}}}
 <ol start="3" type="1">
 <li>Transform the z-score into a p-value, remembering that this is a “greater than” alternative hypothesis.</li>
 </ol>
-<div id="7edf5df0" class="cell" data-execution_count="14">
+<div id="329b6801" class="cell" data-execution_count="14">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1540,7 +1540,7 @@ z = \frac{(\hat{p}_{\text{expensive}} - \hat{p}_{\text{reasonable}})}{SE(\hat{p}
 <ol start="4" type="1">
 <li>Calculate the p-value from the z-score.</li>
 </ol>
-<div id="2af20e46" class="cell" data-execution_count="15">
+<div id="3cf9fabf" class="cell" data-execution_count="15">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1630,7 +1630,7 @@ H_A: \text{late}_{\text{expensive}} - \text{late}_{\text{reasonable}} &gt; 0
 <li>Determine the overall number of rows in each <code>freight_cost_group</code> as a numpy array, specifying the <code>'expensive'</code> count and then <code>'reasonable'</code>.</li>
 <li>Run a z-test using <code>proportions_ztest()</code>, specifying alternative as <code>"larger"</code>.</li>
 </ul>
-<div id="74d8e37e" class="cell" data-execution_count="16">
+<div id="687e989e" class="cell" data-execution_count="16">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1745,7 +1745,7 @@ Z_Stat: 2.922648567784529, P_value: 0.001735340002359578</code></pre>
 <li>Create a proportional stacked bar plot with bars filled based on <code>freight_cost_group</code> across the levels of <code>vendor_inco_term</code>.</li>
 <li>Perform a chi-square test of independence on <code>freight_cost_group</code> and <code>vendor_inco_term</code> in the <code>late_shipments</code> dataset.</li>
 </ol>
-<div id="dbad4ecf" class="cell" data-execution_count="17">
+<div id="480ddda6" class="cell" data-execution_count="17">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1850,7 +1850,7 @@ FCA                   0.336364    0.663636</code></pre>
 <li>Create a bar graph of <code>'n'</code> versus <code>'vendor_inco_term'</code> for the <code>incoterm_counts</code> data, specifying a red color.</li>
 <li>Add blue bars to the plot showing the same results from the <code>hypothesized</code> DataFrame, specifying an <code>alpha</code> of <code>0.5</code>.</li>
 </ol>
-<div id="56db33db" class="cell" data-execution_count="18">
+<div id="15199824" class="cell" data-execution_count="18">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -1926,7 +1926,7 @@ FCA                   0.336364    0.663636</code></pre>
 <ol type="1">
 <li>Using the <code>incoterm_counts</code> and <code>hypothesized</code> datasets, perform a chi-square goodness of fit test on the incoterm counts, <code>n</code>.</li>
 </ol>
-<div id="e6c2472d" class="cell" data-execution_count="19">
+<div id="c84ee118" class="cell" data-execution_count="19">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -2039,7 +2039,7 @@ FCA                   0.336364    0.663636</code></pre>
 <li>Get the count of each value in the <code>freight_cost_group</code> column of <code>late_shipments</code> grouped by <code>vendor_inco_term</code>. Insert a suitable number to inspect whether the counts are <code>"big enough"</code> for a chi-square independence test.</li>
 <li>Get the count of each value in the <code>shipment_mode</code> column of <code>late_shipments</code>. Insert a suitable number to inspect whether the counts are “big enough” for an ANOVA test.</li>
 </ol>
-<div id="3bb62bfe" class="cell" data-execution_count="20">
+<div id="3047f4e3" class="cell" data-execution_count="20">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -2172,7 +2172,7 @@ False</code></pre>
 <li>Conduct a paired t-test on the percentage columns using an appropriate alternative hypothesis.</li>
 <li>Conduct a Wilcoxon-signed rank test on the same columns.</li>
 </ol>
-<div id="efe5da0f" class="cell" data-execution_count="21">
+<div id="6a06a31b" class="cell" data-execution_count="21">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -2243,7 +2243,7 @@ Wilcoxon  2401.0   two-sided  1.780396e-77  0.961661  0.644816</code></pre>
 <li>Convert <code>weight_vs_late</code> from long-to-wide format, setting columns to <code>'late'</code>.</li>
 <li>Run a Wilcoxon-Mann-Whitney test for a difference in <code>weight_kilograms</code> when the shipment was late and on-time.</li>
 </ul>
-<div id="8ceceaba" class="cell" data-execution_count="22">
+<div id="5501ae36" class="cell" data-execution_count="22">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -2286,7 +2286,7 @@ MWU  19134.0   two-sided  0.000014 -0.331902  0.334049</code></pre>
 <ul>
 <li>Run a Kruskal-Wallis test on <code>weight_kilograms</code> between the different shipment modes in <code>late_shipments</code>.</li>
 </ul>
-<div id="0b9cc9dc" class="cell" data-execution_count="23">
+<div id="a333d2b7" class="cell" data-execution_count="23">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the necessary libraries</span></span>
@@ -2862,7 +2862,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb52-64"><a href="#cb52-64" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb52-65"><a href="#cb52-65" aria-hidden="true" tabindex="-1"></a>To answer this, we need to generate a bootstrap distribution of sample means. This is done by resampling the dataset, calculating the sample mean for that resample, then repeating those steps to create a list of sample means.</span>
 <span id="cb52-66"><a href="#cb52-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb52-67"><a href="#cb52-67" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>1 [Bootstrap distributions are taught in Chapter 4 of Sampling in Python(https://lawaloa.github.io/Sampling/#chapter-4-bootstrap-distributions){target="_blank"}</span>
+<span id="cb52-67"><a href="#cb52-67" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>1 <span class="co">[</span><span class="ot">Bootstrap distributions are taught in Chapter 4 of Sampling in Python</span><span class="co">](https://lawaloa.github.io/Sampling/#chapter-4-bootstrap-distributions)</span>{target="_blank"}</span>
 <span id="cb52-68"><a href="#cb52-68" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb52-69"><a href="#cb52-69" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Visualizing the bootstrap distribution {.unnumbered}</span></span>
 <span id="cb52-70"><a href="#cb52-70" aria-hidden="true" tabindex="-1"></a></span>

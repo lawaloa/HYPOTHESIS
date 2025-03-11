@@ -64,7 +64,7 @@ Let's hypothesize that the mean annual compensation of the population of data sc
 
 To answer this, we need to generate a bootstrap distribution of sample means. This is done by resampling the dataset, calculating the sample mean for that resample, then repeating those steps to create a list of sample means.
 
-1.	1 [Bootstrap distributions are taught in Chapter 4 of Sampling in Python(https://lawaloa.github.io/Sampling/#chapter-4-bootstrap-distributions){target="_blank"}
+1.	1 [Bootstrap distributions are taught in Chapter 4 of Sampling in Python](https://lawaloa.github.io/Sampling/#chapter-4-bootstrap-distributions){target="_blank"}
 
 #### Visualizing the bootstrap distribution {.unnumbered}
 
