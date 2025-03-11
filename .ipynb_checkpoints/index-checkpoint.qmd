@@ -3,7 +3,7 @@ title: "Hypothesis Testing in Python"
 author:
   - name: "Lawal's Note"
     affiliation: "Associate Data Science Course in Python by DataCamp Inc"
-date: "2025-01-14"
+date: "2025-01-15"
 toc: true
 number-sections: true
 highlight-style: pygments
@@ -43,6 +43,7 @@ Hi, I'm James. Welcome to this course on hypothesis testing in Python. To start,
 #### A/B testing {.unnumbered}
 
 In 2013, Electronic Arts, or EA, launched a video game called SimCity 5. Leading up to its release, they wanted to increase pre-order sales. They used an experimental design technique called A/B testing, which has roots in hypothesis testing, to test different advertising scenarios and see which improved sales the most. Website visitors were split into a control group and a treatment group. Each group saw a different version of the game's pre-order sales page.
+
 1.	1 Image credit: "Electronic Arts" by majaX1 CC BY-NC-SA 2.0
 
 #### Retail webpage A/B test {.unnumbered}
